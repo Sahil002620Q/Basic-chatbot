@@ -1,140 +1,31 @@
+## 🤖 Simple Chatbot (Fullstack Version)
 
-
-# 🤖 Simple Chatbot (Buggy Version - Jupyter Notebook)
-
-A beginner-friendly chatbot project built using Jupyter Notebook.
-This project is intentionally imperfect to help contributors practice debugging and open-source contributions.
+A beginner-friendly chatbot project featuring a **Flask API** backend and a modern **Vite/React** frontend. This version is designed to help developers practice integrating external APIs (Groq) and handling user authentication/secrets.
 
 ---
 
 ## 📁 Project Structure
 
-* `chatbot.ipynb` → Main chatbot implementation
-* (optional) additional notebook files for testing or experiments
+*   `api/` → Python Flask backend (Handling chatbot logic)
+*   `web/` → Frontend application (Built with React/Vite)
+*   `README.md` → Project documentation
 
 ---
 
-## ✨ Features
+## 🔑 Prerequisite: API Setup
 
-* Simple rule-based chatbot
-* Interactive input/output inside notebook
-* Easy to understand logic (beginner friendly)
+Before running the project, you need an API key to power the chatbot's intelligence:
 
----
-
-## ⚠️ Known Issues
-
-* Some responses are inconsistent
-* Input handling is not robust
-* Edge cases are not fully covered
-* Code structure can be improved
+1.  Go to **[Groq Cloud Console](https://console.groq.com/keys)**.
+2.  Log in and click **"Create API Key"**.
+3.  Copy this key and keep it safe. You will need to paste it into the web interface when you launch the app.
 
 ---
 
 ## 🚀 How to Run
 
-### Option 1: Using Jupyter Notebook
-
-1. Install Jupyter:
-
+### 1. Clone the Repository
+First, get the code onto your local machine:
 ```bash
-pip install notebook
-```
-
-2. Start Jupyter:
-
-```bash
-jupyter notebook
-```
-
-3. Open:
-
-```
-chatbot.ipynb
-```
-
-4. Run all cells
-
----
-
-### Option 2: Using Google Colab
-
-* Upload the `.ipynb` file to Google Colab
-* Run cells directly in browser
-
----
-
-## 🧪 Example
-
-```
-Input: hello
-Output: Hi there!
-
-Input: how are you
-Output: I'm fine!
-```
-
----
-
-## 🤝 Contributions Welcome
-
-This project is designed for beginners to contribute.
-
-You can:
-
-* 🐞 Fix bugs in chatbot logic
-* ✨ Improve responses
-* 🧹 Clean up code
-* ⚡ Handle edge cases
-
-👉 Check the **Issues tab** to get started.
-
----
-
-## 🟢 Good First Issues
-
-Look for labels:
-
-* `good first issue`
-* `bug`
-* `enhancement`
-
----
-
-## 📌 Contribution Steps
-
-1. Fork the repository
-2. Download or open the `.ipynb` file
-3. Make changes in notebook
-4. Save and commit changes
-5. Push and open a Pull Request
-
----
-
-## ⚠️ Notes for Contributors
-
-* Keep changes simple and readable
-* Avoid over-complicating the logic
-* Try to fix one issue per PR
-
----
-
-## 🚀 Start Contributing
-
- Go to the Issues tab  
- Pick any issue  
- Comment "assign me"  
- Submit a Pull Request  
-
-
-## 🎯 Goal
-
-* Practice debugging real code
-* Learn GitHub contribution workflow
-* Help beginners get started with open source
-
----
-
-## ⭐ Support
-
-If you like this project, give it a star ⭐
+git clone <your-repo-url>
+cd Simple-chatbot
