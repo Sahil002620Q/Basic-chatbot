@@ -1,31 +1,85 @@
-## 🤖 Simple Chatbot (Fullstack Version)
+# 🤖 Simple Chatbot (Fullstack Version)
 
-A beginner-friendly chatbot project featuring a **Flask API** backend and a modern **Vite/React** frontend. This version is designed to help developers practice integrating external APIs (Groq) and handling user authentication/secrets.
-
----
-
-## 📁 Project Structure
-
-*   `api/` → Python Flask backend (Handling chatbot logic)
-*   `web/` → Frontend application (Built with React/Vite)
-*   `README.md` → Project documentation
+A beginner-friendly chatbot project built with a **Flask API** and **Vite/React** frontend. Designed for learning API integration and fullstack workflows.
 
 ---
 
-## 🔑 Prerequisite: API Setup
+## 🔑 Prerequisite: Get your API Key
 
-Before running the project, you need an API key to power the chatbot's intelligence:
+Go to the **Groq Cloud Console** to generate your API key:
 
-1.  Go to **[Groq Cloud Console](https://console.groq.com/keys)**.
-2.  Log in and click **"Create API Key"**.
-3.  Copy this key and keep it safe. You will need to paste it into the web interface when you launch the app.
+👉 https://console.groq.com/keys
+
+You will need to paste this key into the frontend when the application starts.
 
 ---
 
-## 🚀 How to Run
+# 🚀 Getting Started
 
-### 1. Clone the Repository
-First, get the code onto your local machine:
+## 1. Clone & Setup
+
 ```bash
-git clone <your-repo-url>
+git clone <repository-url>
 cd Simple-chatbot
+```
+
+---
+
+## 2. Launch Backend (API)
+
+```bash
+python -m pip install requests flask flask-cors
+cd api
+python3 app.py
+```
+
+⚠ Keep this terminal running.
+
+---
+
+## 3. Launch Frontend (Web)
+
+Open a **new terminal** window and run:
+
+```bash
+cd Simple-chatbot
+cd web
+npm install
+npm run dev
+```
+
+---
+
+# 🤝 Contributing
+
+We welcome pull requests!
+
+Feel free to:
+
+- Fix bugs
+- Improve UI
+- Optimize logic
+- Add new features
+
+---
+
+# 🏆 Top Contributors
+
+🥇 **1st Place**
+
+<a href="https://github.com/Sahil002620Q">
+  <img src="https://github.com/Sahil002620Q.png" width="120" style="border-radius:50%;">
+</a>
+
+### Sahil002620Q
+
+🔗 GitHub Profile:  
+https://github.com/Sahil002620Q
+
+**Lead Architect & Logic Expert**
+
+---
+
+# 👨‍💻 Author
+
+Made with ❤️ by **Sahil002620Q**
