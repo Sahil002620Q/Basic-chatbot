@@ -19,7 +19,7 @@ You will need to paste this key into the frontend when the application starts.
 ## 1. Clone & Setup
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/siddharth277/Basic-chatbot.git
 cd Simple-chatbot
 ```
 
